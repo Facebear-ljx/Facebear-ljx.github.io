@@ -15,7 +15,7 @@ Robo-MUTUAL: Robotic Multimodal Task Specification via Unimodal Learning](https:
 
 
 ## Conference Proceedings
-- Guan Wang$^\*$, Haoyi Niu$^\*$, **Jianxiong Li**, Li Jiang, Jianming HU, Xianyuan Zhan, Are Expressive Models Truly Necessary for Offline RL?. *AAAI 2025*, 2025.
+- Guan Wang$^\*$, Haoyi Niu$^\*$, **Jianxiong Li**, Li Jiang, Jianming HU, Xianyuan Zhan, Are Expressive Models Truly Necessary for Offline RL?. *AAAI 2025* (<span style="color:red">Oral</span>).
 
 - Jinliang Zheng$^\*$, **Jianxiong Li**$^\*$, Sijie Cheng, Yinan Zheng, Jiaming Li, Jihao Liu, Yu Liu, Jingjing Liu, Xianyuan Zhan, [Instruction-Guided Visual Masking](https://2toinf.github.io/IVM/), Neural Information Processing Systems (NeurIPS), 2024. (<span style="color:red">Outstanding Paper</span> at MFM-MAI Workshop @ ICML 2024), 2024
 
