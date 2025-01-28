@@ -4,9 +4,6 @@
 ## Preprints and Codebases
 - Jinliang Zheng$^\*$, **Jianxiong Li**$^\*$, Dongxiu Liu$^\*$, Yinan Zheng, Zhihao Wang, Zhonghong Ou, Yu Liu, Jingjing Liu, Ya-Qin Zhang, Xianyuan Zhan, [Universal Actions for Enhanced Embodied Foundation Models](https://arxiv.org/abs/2501.10105), 2025. [[Code]](https://github.com/2toinf/UniAct)[[Project Page]](https://2toinf.github.io/UniAct/)
 
-- **Jianxiong Li**$^\*$, Zhihao Wang$^\*$, Jinliang Zheng$^\*$, Xiaoai Zhou, Guanming Wang, Guanglu Song, Yu Liu, Jingjing Liu, Ya-Qin Zhang, Junzhi Yu, Xianyuan Zhan, [	
-Robo-MUTUAL: Robotic Multimodal Task Specification via Unimodal Learning](https://zh1hao.wang/Robo_MUTUAL/). *NeurIPS 2024 OWA workshop*, 2024.
-
 - Haoyi Niu$^\*$, Qimao Chen$^\*$, Tenglong Liu, **Jianxiong Li**, Guyue Zhou, Yi Zhang, Jianming Hu, Xianyuan Zhan, [xTED: Cross-Domain Policy Adaptation via Diffusion-Based Trajectory Editing](https://arxiv.org/abs/2409.08687v1) *NeurIPS 2024 OWA workshop*, 2024.
 
 - **Jianxiong Li**$^\*$, Shichao Lin$^\*$, Tianyu Shi, Chujie Tian, Yu Mei, Jian Song, Xianyuan Zhan, Ruimin Li, [A Fully Data-Driven Approach for Realistic Traffic Signal Control Using Offline Reinforcement Learning](https://arxiv.org/abs/2311.15920) *Under Review*, 2023.
@@ -17,6 +14,9 @@ Robo-MUTUAL: Robotic Multimodal Task Specification via Unimodal Learning](https:
 
 
 ## Conference Proceedings
+- **[ICRA 2025]** **Jianxiong Li**$^\*$, Zhihao Wang$^\*$, Jinliang Zheng$^\*$, Xiaoai Zhou, Guanming Wang, Guanglu Song, Yu Liu, Jingjing Liu, Ya-Qin Zhang, Junzhi Yu, Xianyuan Zhan, [	
+Robo-MUTUAL: Robotic Multimodal Task Specification via Unimodal Learning](https://zh1hao.wang/Robo_MUTUAL/).
+
 - **[ICLR 2025]** Tenglong Liu$^\*$, **Jianxiong Li**$^\*$, Yinan Zheng, Haoyi Niu, Yixing Lan, Xin Xu, Xianyuan Zhan, [Skill Expansion and Composition in Parameter Space](https://openreview.net/forum?id=GLWf2fq0bX).
 
 - **[ICLR 2025]** Yinan Zheng$^\*$, Ruiming Liang$^\*$, Kexin Zheng$^\*$, Jinliang Zheng, Liyuan Mao, **Jianxiong Li**, Weihao Gu, Rui Ai, Shengbo Eben Li, Xianyuan Zhan, Jingjing Liu, [Diffusion-Based Planning for Autonomous Driving with Flexible Guidance](https://openreview.net/forum?id=wM2sfVgMDH). [[Code]](https://github.com/ZhengYinan-AIR/Diffusion-Planner)
