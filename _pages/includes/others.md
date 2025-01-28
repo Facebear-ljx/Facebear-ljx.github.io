@@ -8,4 +8,4 @@
 - *2023.07 - 2023.09*, [IDRIVERPLUS](https://www.idriverplus.com/en/index.html), Beijing, China. Studing on the applications of life long learning algorithms on 2D object detection for autonomous driving.
 
 # 🧑‍🎨 Services
-Reviewer for NeurIPS 23-24, ICLR 24-25, ICML 24-25, AAAI 24-25, IJCAI 24, DMLR workshop@ICLR 2024
+Reviewer for NeurIPS 23-24, ICLR 24-25, ICML 24-25, AAAI 24-25, IJCAI 24, TMLR, DMLR workshop@ICLR 2024
