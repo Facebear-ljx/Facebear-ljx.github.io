@@ -1,0 +1,558 @@
+[
+  {
+    "title": "X-VLA: Soft-Prompted Transformer as Scalable Cross-Embodiment Vision-Language-Action Model",
+    "authors": "Jinliang Zheng*, Jianxiong Li*, Zhihao Wang, Dongxiu Liu, Xirui Kang, Yuchun Feng, Yinan Zheng, Jiayin Zou, Yilun Chen, Jia Zeng, Ya-Qin Zhang, Jiangmiao Pang, Jingjing Liu, Tai Wang, Xianyuan Zhan",
+    "venue": "ICLR 2026",
+    "note": "(1st place 🏆 @ AGIBOT World Challenge (Manipulation track), IROS 2025)",
+    "year": 2025,
+    "categories": [
+      "selected",
+      "all",
+      "pretrain"
+    ],
+    "links": [
+      {
+        "label": "Paper",
+        "href": "https://arxiv.org/abs/2510.10274"
+      },
+      {
+        "label": "Code",
+        "href": "https://github.com/2toinf/X-VLA"
+      },
+      {
+        "label": "Page",
+        "href": "https://thu-air-dream.github.io/X-VLA/"
+      }
+    ]
+  },
+  {
+    "title": "Universal Actions for Enhanced Embodied Foundation Models",
+    "authors": "Jinliang Zheng*, Jianxiong Li*, Dongxiu Liu*, Yinan Zheng, Zhihao Wang, Zhonghong Ou, Yu Liu, Jingjing Liu, Ya-Qin Zhang, Xianyuan Zhan",
+    "venue": "CVPR 2025",
+    "note": "",
+    "year": 2025,
+    "categories": [
+      "selected",
+      "all",
+      "pretrain"
+    ],
+    "links": [
+      {
+        "label": "Paper",
+        "href": "https://arxiv.org/abs/2501.10105"
+      },
+      {
+        "label": "Code",
+        "href": "https://github.com/2toinf/UniAct?tab=readme-ov-file"
+      },
+      {
+        "label": "Page",
+        "href": "https://2toinf.github.io/UniAct/"
+      }
+    ]
+  },
+  {
+    "title": "Robo-MUTUAL: Robotic Multimodal Task Specification via Unimodal Learning",
+    "authors": "Jianxiong Li*, Zhihao Wang*, Jinliang Zheng*, Xiaoai Zhou, Guanming Wang, Guanglu Song, Yu Liu, Jingjing Liu, Ya-Qin Zhang, Junzhi Yu, Xianyuan Zhan",
+    "venue": "ICRA 2025",
+    "note": "",
+    "year": 2025,
+    "categories": [
+      "selected",
+      "all",
+      "pretrain"
+    ],
+    "links": [
+      {
+        "label": "Paper",
+        "href": "https://arxiv.org/pdf/2410.01529"
+      },
+      {
+        "label": "Code",
+        "href": "https://github.com/255isWhite/Robo_MUTUAL"
+      },
+      {
+        "label": "Page",
+        "href": "https://zh1hao.wang/Robo_MUTUAL/"
+      }
+    ]
+  },
+  {
+    "title": "Skill Expansion and Composition in Parameter Space",
+    "authors": "Tenglong Liu*, Jianxiong Li*, Yinan Zheng, Haoyi Niu, Yixing Lan, Xin Xu, Xianyuan Zhan",
+    "venue": "ICLR 2025",
+    "note": "",
+    "year": 2025,
+    "categories": [
+      "selected",
+      "all",
+      "posttrain"
+    ],
+    "links": [
+      {
+        "label": "Paper",
+        "href": "https://arxiv.org/abs/2502.05932"
+      },
+      {
+        "label": "Code",
+        "href": "https://github.com/ltlhuuu/PSEC"
+      },
+      {
+        "label": "Page",
+        "href": "https://ltlhuuu.github.io/PSEC/"
+      },
+      {
+        "label": "Dataset",
+        "href": "https://huggingface.co/datasets/LTL07/PSEC"
+      },
+      {
+        "label": "Model",
+        "href": "https://huggingface.co/LTL07/PSEC"
+      }
+    ]
+  },
+  {
+    "title": "Instruction Guided Visual Masking",
+    "authors": "Jinliang Zheng*, Jianxiong Li*, Sijie Cheng, Yinan Zheng, Jiaming Li, Jihao Liu, Yu Liu, Jingjing Liu, Xianyuan Zhan",
+    "venue": "NeurIPS 2024",
+    "note": "(Outstanding Paper @ ICML 2024 MFM-EAI Workshop)",
+    "year": 2024,
+    "categories": [
+      "selected",
+      "all",
+      "pretrain",
+      "rl"
+    ],
+    "links": [
+      {
+        "label": "Paper",
+        "href": "https://arxiv.org/abs/2405.19783"
+      },
+      {
+        "label": "Code",
+        "href": "https://github.com/2toinf/IVM"
+      },
+      {
+        "label": "Page",
+        "href": "https://2toinf.github.io/IVM/"
+      },
+      {
+        "label": "Dataset",
+        "href": "https://huggingface.co/datasets/2toINF/IVM-Mix-1M/tree/main"
+      },
+      {
+        "label": "Model",
+        "href": "https://huggingface.co/2toINF/IVM/tree/main"
+      }
+    ]
+  },
+  {
+    "title": "DecisionNCE: Embodied Multimodal Representations via Implicit Preference Learning",
+    "authors": "Jianxiong Li*, Jinliang Zheng*, Yinan Zheng*, Liyuan Mao, Xiao Hu, Sijie Cheng, Haoyi Niu, Jihao Liu, Yu Liu, Jingjing Liu, Ya-Qin Zhang, Xianyuan Zhan",
+    "venue": "ICML 2024",
+    "note": "(Outstanding Paper @ ICML 2024 MFM-EAI Workshop)",
+    "year": 2024,
+    "categories": [
+      "selected",
+      "all",
+      "pretrain"
+    ],
+    "links": [
+      {
+        "label": "Paper",
+        "href": "https://arxiv.org/pdf/2402.18137.pdf"
+      },
+      {
+        "label": "Code",
+        "href": "https://github.com/2toinf/DecisionNCE"
+      },
+      {
+        "label": "Page",
+        "href": "https://2toinf.github.io/DecisionNCE/"
+      }
+    ]
+  },
+  {
+    "title": "Query-Policy Misalignment in Preference-Based Reinforcement Learning",
+    "authors": "Xiao Hu*, Jianxiong Li*, Xianyuan Zhan, Qing-Shan Jia, Ya-Qin Zhang",
+    "venue": "ICLR 2024",
+    "note": "(Spotlight, Top 5%)",
+    "year": 2024,
+    "categories": [
+      "selected",
+      "all",
+      "rl"
+    ],
+    "links": [
+      {
+        "label": "Paper",
+        "href": "https://arxiv.org/abs/2305.17400"
+      },
+      {
+        "label": "Code",
+        "href": "https://github.com/huxiao09/QPA"
+      }
+    ]
+  },
+  {
+    "title": "Safe Offline Reinforcement Learning with Feasibility-Guided Diffusion Model",
+    "authors": "Yinan Zheng*, Jianxiong Li*, Dongjie Yu, Yujie Yang, Shengbo Eben Li, Xianyuan Zhan, Jingjing Liu",
+    "venue": "ICLR 2024",
+    "note": "",
+    "year": 2024,
+    "categories": [
+      "selected",
+      "all",
+      "rl"
+    ],
+    "links": [
+      {
+        "label": "Paper",
+        "href": "https://arxiv.org/pdf/2401.10700"
+      },
+      {
+        "label": "Code",
+        "href": "https://github.com/ZhengYinan-AIR/FISOR"
+      },
+      {
+        "label": "Page",
+        "href": "https://zhengyinan-air.github.io/FISOR/"
+      }
+    ]
+  },
+  {
+    "title": "When Data Geometry Meets Deep Function: Generalizing Offline Reinforcement Learning",
+    "authors": "Jianxiong Li, Xianyuan Zhan, Haoran Xu, Xiangyu Zhu, Jingjing Liu, Ya-Qin Zhang",
+    "venue": "ICLR 2023",
+    "note": "",
+    "year": 2023,
+    "categories": [
+      "selected",
+      "all",
+      "rl"
+    ],
+    "links": [
+      {
+        "label": "Paper",
+        "href": "https://arxiv.org/abs/2205.11027"
+      },
+      {
+        "label": "Code",
+        "href": "https://github.com/Facebear-ljx/DOGE"
+      }
+    ]
+  },
+  {
+    "title": "Mind the Gap: Offline Policy Optimization for Imperfect Rewards",
+    "authors": "Jianxiong Li*, Xiao Hu*, Haoran Xu, Jingjing Liu, Xianyuan Zhan, Qing-Shan Jia, Ya-Qin Zhang",
+    "venue": "ICLR 2023",
+    "note": "",
+    "year": 2023,
+    "categories": [
+      "selected",
+      "all",
+      "rl"
+    ],
+    "links": [
+      {
+        "label": "Paper",
+        "href": "https://arxiv.org/abs/2302.01667"
+      },
+      {
+        "label": "Code",
+        "href": "https://github.com/Facebear-ljx/RGM"
+      }
+    ]
+  },
+  {
+    "title": "Flow Matching-Based Autonomous Driving Planning with Advanced Interactive Behavior Modeling",
+    "authors": "Tianyi Tan, Yinan Zheng, Ruiming Liang, Zexu Wang, Kexin ZHENG, Jinliang Zheng, Jianxiong Li, Xianyuan Zhan, Jingjing Liu",
+    "venue": "NeurIPS 2025",
+    "note": "",
+    "year": 2025,
+    "categories": [
+      "all"
+    ],
+    "links": []
+  },
+  {
+    "title": "PhysiAgent: An Embodied Agent Framework in Physical World",
+    "authors": "Zhihao Wang*, Jianxiong Li*, Jinliang Zheng*, Wencong Zhang, Dongxiu Liu, Yinan Zheng, Haoyi Niu, Junzhi Yu, Xianyuan Zhan",
+    "venue": "",
+    "note": "",
+    "year": 2025,
+    "categories": [
+      "all"
+    ],
+    "links": [
+      {
+        "label": "Paper",
+        "href": "https://arxiv.org/abs/2509.24524"
+      }
+    ]
+  },
+  {
+    "title": "Efficient Robotic Policy Learning via Latent Space Backward Planning",
+    "authors": "Dongxiu Liu*, Haoyi Niu*, Zhihao Wang, Jinliang Zheng, Yinan Zheng, Zhonghong Ou, Jianming Hu, Jianxiong Li, Xianyuan Zhan",
+    "venue": "ICML 2025",
+    "note": "",
+    "year": 2025,
+    "categories": [
+      "all"
+    ],
+    "links": [
+      {
+        "label": "Paper",
+        "href": "https://www.arxiv.org/abs/2505.06861"
+      },
+      {
+        "label": "Code",
+        "href": "https://github.com/Dstate/LBP"
+      },
+      {
+        "label": "Page",
+        "href": "https://lbp-authors.github.io/"
+      }
+    ]
+  },
+  {
+    "title": "Pushing the Limit of Sample-Efficient Offline Reinforcement Learning",
+    "authors": "Peng Cheng, Zhihao Wu, Jianxiong Li, Haoran Xu, Wei Sun, Youfang Lin, Yunxin Liu, Xianyuan Zhan",
+    "venue": "ICLR 2026",
+    "note": "",
+    "year": 2026,
+    "categories": [
+      "all"
+    ],
+    "links": []
+  },
+  {
+    "title": "Reachability-Aware Reinforcement Learning for Collision Avoidance in Human-Machine Shared Control",
+    "authors": "Shiyue Zhao, Junzhi Zhang, Neda Masoud, Jianxiong Li, Yinan Zheng, Xiaohui Hou",
+    "venue": "Under Review",
+    "note": "",
+    "year": 2025,
+    "categories": [
+      "all"
+    ],
+    "links": []
+  },
+  {
+    "title": "Diffusion-Based Planning for Autonomous Driving with Flexible Guidance",
+    "authors": "Yinan Zheng*, Ruiming Liang*, Kexin Zheng*, Jinliang Zheng, Liyuan Mao, Jianxiong Li, Weihao Gu, Rui Ai, Shengbo Eben Li, Xianyuan Zhan, Jingjing Liu",
+    "venue": "ICLR 2025",
+    "note": "(Oral, Top 2%)",
+    "year": 2025,
+    "categories": [
+      "all",
+      "posttrain",
+      "rl"
+    ],
+    "links": [
+      {
+        "label": "Paper",
+        "href": "https://arxiv.org/pdf/2501.15564"
+      },
+      {
+        "label": "Code",
+        "href": "https://github.com/ZhengYinan-AIR/Diffusion-Planner"
+      },
+      {
+        "label": "Page",
+        "href": "https://zhengyinan-air.github.io/Diffusion-Planner/"
+      }
+    ]
+  },
+  {
+    "title": "Are Expressive Models Truly Necessary for Offline RL?",
+    "authors": "Guan Wang*, Haoyi Niu*, Jianxiong Li, Li Jiang, Jianming Hu, Xianyuan Zhan",
+    "venue": "AAAI 2025",
+    "note": "(Oral, Top 5%)",
+    "year": 2024,
+    "categories": [
+      "all",
+      "rl"
+    ],
+    "links": [
+      {
+        "label": "Paper",
+        "href": "https://arxiv.org/abs/2412.11253"
+      },
+      {
+        "label": "Code",
+        "href": "https://github.com/imoneoi/RSP_JAX"
+      }
+    ]
+  },
+  {
+    "title": "xTED: Cross-Domain Adaptation via Diffusion-Based Trajectory Editing",
+    "authors": "Haoyi Niu*, Qimao Chen*, Tenglong Liu, Jianxiong Li, Guyue Zhou, Yi Zhang, Jianming Hu, Xianyuan Zhan",
+    "venue": "NeurIPS 2024 OWA Workshop",
+    "note": "",
+    "year": 2024,
+    "categories": [
+      "all",
+      "pretrain"
+    ],
+    "links": [
+      {
+        "label": "Paper",
+        "href": "https://arxiv.org/abs/2409.08687"
+      },
+      {
+        "label": "Code",
+        "href": "https://github.com/t6-thu/xTED"
+      },
+      {
+        "label": "Page",
+        "href": "https://t6-thu.github.io/xTED/"
+      }
+    ]
+  },
+  {
+    "title": "PROTO: Iterative Policy Regularized Offline-to-Online Reinforcement Learning",
+    "authors": "Jianxiong Li, Xiao Hu, Haoran Xu, Jingjing Liu, Xianyuan Zhan, Ya-Qin Zhang",
+    "venue": "Preprint",
+    "note": "",
+    "year": 2023,
+    "categories": [
+      "all",
+      "posttrain"
+    ],
+    "links": [
+      {
+        "label": "Paper",
+        "href": "https://arxiv.org/abs/2305.15669"
+      },
+      {
+        "label": "Code",
+        "href": "https://github.com/Facebear-ljx/PROTO"
+      }
+    ]
+  },
+  {
+    "title": "A Fully Data-Driven Approach for Realistic Traffic Signal Control Using Offline Reinforcement Learning",
+    "authors": "Jianxiong Li, Shichao Lin, Tianyu Shi, Chujie Tian, Yu Mei, Jian Song, Xianyuan Zhan, Ruimin Li",
+    "venue": "Data Science for Transportation",
+    "note": "",
+    "year": 2023,
+    "categories": [
+      "all",
+      "rl"
+    ],
+    "links": [
+      {
+        "label": "Paper",
+        "href": "https://arxiv.org/abs/2311.15920"
+      }
+    ]
+  },
+  {
+    "title": "Offline RL with No OOD Actions: In-Sample Learning via Implicit Value Regularization",
+    "authors": "Haoran Xu, Li Jiang, Jianxiong Li, Zhuoran Yang, Zhaoran Wang, Victor Wai Kin Chan, Xianyuan Zhan",
+    "venue": "ICLR 2023",
+    "note": "(Oral, Notable Top 5%)",
+    "year": 2023,
+    "categories": [
+      "all",
+      "rl"
+    ],
+    "links": [
+      {
+        "label": "Paper",
+        "href": "https://arxiv.org/abs/2303.15810"
+      },
+      {
+        "label": "Code",
+        "href": "https://github.com/ryanxhr/IVR"
+      }
+    ]
+  },
+  {
+    "title": "A Policy-Guided Imitation Approach for Offline Reinforcement Learning",
+    "authors": "Haoran Xu*, Li Jiang*, Jianxiong Li, Xianyuan Zhan",
+    "venue": "NeurIPS 2022",
+    "note": "(Oral, Top 2%)",
+    "year": 2022,
+    "categories": [
+      "all",
+      "rl"
+    ],
+    "links": [
+      {
+        "label": "Paper",
+        "href": "https://arxiv.org/abs/2210.08323"
+      },
+      {
+        "label": "Code",
+        "href": "https://github.com/ryanxhr/POR"
+      },
+      {
+        "label": "Slides",
+        "href": "https://docs.google.com/presentation/d/1swZTLDSvZLGCrXs46tzSHLWZC6VfO9qYChegjjadCpc/edit?usp=sharing"
+      },
+      {
+        "label": "Media",
+        "href": "https://mp.weixin.qq.com/s/a6u2Wwfus6PtBziKfMB1zg"
+      }
+    ]
+  },
+  {
+    "title": "Vehicle Extreme Control based on Offline Reinforcement Leaning",
+    "authors": "Shiyue Zhao, Jianxiong Li, Xiao Hu, Junzhi Zhang, Chengkun He",
+    "venue": "CAC 2022",
+    "note": "",
+    "year": 2022,
+    "categories": [
+      "all",
+      "rl"
+    ],
+    "links": []
+  },
+  {
+    "title": "Offline Reinforcement Learning with Soft Behavioral Regularization",
+    "authors": "Haoran Xu, Xianyuan Zhan, Jianxiong Li, Honglei Yin",
+    "venue": "NeurIPS 2021 Offline RL Workshop",
+    "note": "",
+    "year": 2021,
+    "categories": [
+      "all",
+      "rl"
+    ],
+    "links": [
+      {
+        "label": "Paper",
+        "href": "https://arxiv.org/abs/2110.07395"
+      },
+      {
+        "label": "Code",
+        "href": "https://github.com/Facebear-ljx/SBAC"
+      }
+    ]
+  },
+  {
+    "title": "Dichotomous Diffusion Policy Optimization",
+    "authors": "Ruiming Liang, Yinan Zheng, Kexin Zheng, Tianyi Tan, Jianxiong Li, Liyuan Mao, Zhihao Wang, Guang Chen, Hangjun Ye, Jingjing Liu, Jinqiao Wang, Xianyuan Zhan",
+    "venue": "ICLR 2026",
+    "note": "",
+    "year": 2026,
+    "categories": [
+      "posttrain",
+      "all"
+    ],
+    "links": [
+      {
+        "label": "Paper",
+        "href": "https://arxiv.org/pdf/2601.00898v1"
+      },
+      {
+        "label": "Code",
+        "href": "https://github.com/LRMbbj/DIPOLE"
+      },
+      {
+        "label": "Page",
+        "href": "https://lrmbbj.github.io/DIPOLE/"
+      }
+    ]
+  }
+]

@@ -1,0 +1,50 @@
+{
+  "verifiedOn": "2026-09-23",
+  "newPublications": [
+    {
+      "title": "World Value Models for Robotic Manipulation",
+      "authors": "Zhihao Wang, Jianxiong Li, Yu Cui, Yuan Gao, Xianyuan Zhan, Junzhi Yu, Xiao Ma",
+      "venue": "Preprint", "note": "", "year": 2026, "date": "2026-06-23",
+      "categories": ["selected", "all", "pretrain", "rl"],
+      "links": [{"label": "Paper", "href": "https://arxiv.org/abs/2606.24742"}]
+    },
+    {
+      "title": "TTT-VLA: Test-Time Latent Prompt Optimization for Vision-Language-Action Models",
+      "authors": "Wenbo Zhang, Jianxiong Li, Shuai Yang, Sijin Chen, Jiajun Liu, Lingqiao Liu, Xiao Ma",
+      "venue": "Preprint", "note": "", "year": 2026, "date": "2026-06-02",
+      "categories": ["selected", "all", "posttrain"],
+      "links": [{"label": "Paper", "href": "https://arxiv.org/abs/2606.03127"}]
+    },
+    {
+      "title": "Demystifying Action Space Design for Robotic Manipulation Policies",
+      "authors": "Yuchun Feng*, Jinliang Zheng*, Zhihao Wang, Dongxiu Liu, Jianxiong Li, Jiangmiao Pang, Tai Wang, Xianyuan Zhan",
+      "venue": "ICML 2026", "note": "Best Paper · Efficient Spatial Reasoning Workshop @ ICLR 2026", "year": 2026, "date": "2026-02-26",
+      "categories": ["selected", "all", "pretrain"],
+      "links": [{"label": "Paper", "href": "https://arxiv.org/abs/2602.23408"}]
+    }
+  ],
+  "publicationUpdates": {
+    "Pushing the Limit of Sample-Efficient Offline Reinforcement Learning": {
+      "alternateTitle": "Conference title: Sample Efficient Offline RL via T-Symmetry Enforced Latent State-Stitching",
+      "authors": "Peng Cheng, Zhihao Wu, Jianxiong Li, Ziteng He, Haoran Xu, Wei Sun, Youfang Lin, Yunxin Liu, Xianyuan Zhan",
+      "links": [{"label": "Paper", "href": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/e23133d34964a0a09f6d076fc4b922a4-Abstract-Conference.html"}]
+    },
+    "Flow Matching-Based Autonomous Driving Planning with Advanced Interactive Behavior Modeling": {
+      "links": [{"label": "Paper", "href": "https://arxiv.org/abs/2510.11083"}]
+    },
+    "Reachability-Aware Reinforcement Learning for Collision Avoidance in Human-Machine Shared Control": {
+      "venue": "Accident Analysis & Prevention",
+      "links": [{"label": "Paper", "href": "https://arxiv.org/abs/2502.10610"}, {"label": "Journal", "href": "https://www.sciencedirect.com/science/article/pii/S0001457526000837"}]
+    },
+    "xTED: Cross-Domain Adaptation via Diffusion-Based Trajectory Editing": {
+      "venue": "AAMAS 2026", "note": "Also presented at NeurIPS 2024 OWA Workshop"
+    },
+    "PhysiAgent: An Embodied Agent Framework in Physical World": {"venue": "ICML 2025 Workshop"}
+  },
+  "news": [
+    {"date": "Jul 2026", "html": "I co-founded <strong>BASAL Intelligence</strong> and serve as CEO."},
+    {"date": "Jul 2026", "html": "I completed my PhD at <a href=\"https://air.tsinghua.edu.cn/en/\">Tsinghua University</a>, advised by Prof. Xianyuan Zhan and Prof. Ya-Qin Zhang."},
+    {"date": "Jun 2026", "html": "New work: <a href=\"https://arxiv.org/abs/2606.24742\">World Value Models</a> and <a href=\"https://arxiv.org/abs/2606.03127\">TTT-VLA</a> — value modeling and test-time adaptation for robotic manipulation."},
+    {"date": "2026", "html": "<a href=\"https://arxiv.org/abs/2602.23408\">Demystifying Action Space Design</a> is accepted to <strong>ICML 2026</strong> and received the <strong>Best Paper Award</strong> at the Efficient Spatial Reasoning Workshop @ ICLR 2026."}
+  ]
+}

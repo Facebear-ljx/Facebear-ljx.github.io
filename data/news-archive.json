@@ -1,0 +1,13 @@
+[
+  "Three papers have been accepted to ICLR 2026, including a strong VLA model <a href=\"https://arxiv.org/pdf/2510.10274\">X-VLA</a>, a stable diffusion RL post-training approch <a href=\"https://arxiv.org/pdf/2601.00898v1\">DIPOLE</a> and a sample-efficient offline RL approch TELS.",
+  "🏆Our <a href=\"https://arxiv.org/pdf/2510.10274\">X-VLA</a> has won <strong>1st place</strong> in the <a href=\"https://agibot-world.com/challenge\">AGIBOT World Challenge (Manipulation track) @ IROS 2025</a>.",
+  "🌟We release <a href=\"https://arxiv.org/pdf/2510.10274\">X-VLA</a>, a cross-embodiment model that sweeps many benchmarks and achieves strong real-world performance.",
+  "One paper (<a href=\"https://arxiv.org/abs/2510.11083\">FlowPlanner</a>) on autonomous driving is accepeted to <strong>NeurIPS 2025</strong>.",
+  "One paper (<a href=\"https://www.arxiv.org/abs/2505.06861\">LBP</a>) on efficient latent planning is accepted to <strong>ICML 2025</strong>.",
+  "One paper (<a href=\"https://arxiv.org/abs/2501.10105\">UniAct</a>) on cross-embodiment universal actions is accepted to <strong>CVPR 2025</strong>.",
+  "🌟<a href=\"https://zhengyinan-air.github.io/Diffusion-Planner/\">Diffusion-Planner</a> is selected as <strong>oral</strong> presentation at <strong>ICLR 2025</strong>.",
+  "Two papers on fast post-train (<a href=\"https://ltlhuuu.github.io/PSEC/\">PSEC</a>) and autonomous driving (<a href=\"https://zhengyinan-air.github.io/Diffusion-Planner/\">Diffusion-Planner</a>) are accepted to <strong>ICLR 2025</strong>.",
+  "One paper (<a href=\"https://zh1hao.wang/Robo_MUTUAL/\">Robo-MUTUAL</a>) on embodied representations is accepted to <strong>ICRA 2025</strong>.",
+  "🌟One paper (<a href=\"https://arxiv.org/abs/2412.11253\">RSP</a>) on offline RL is accepted to <strong>AAAI 2025 as oral</strong>.",
+  "🌟<a href=\"https://2toinf.github.io/IVM/\">IVM</a> and <a href=\"https://2toinf.github.io/DecisionNCE/\">DecisionNCE</a> are selected as <strong>Outstanding Paper</strong> at MFM-EAI workshop @ <strong>ICML 2024</strong>."
+]
