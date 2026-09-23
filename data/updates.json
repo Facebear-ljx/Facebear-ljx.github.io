@@ -43,7 +43,7 @@
   },
   "news": [
     {"date": "Jul 2026", "html": "I co-founded <strong>BASAL Intelligence</strong> and serve as CEO."},
-    {"date": "Jul 2026", "html": "I completed my PhD at <a href=\"https://air.tsinghua.edu.cn/en/\">Tsinghua University</a>, advised by Prof. Xianyuan Zhan and Prof. Ya-Qin Zhang."},
+    {"date": "Jul 2026", "html": "I completed my PhD at <a href=\"https://air.tsinghua.edu.cn/en/\">Tsinghua University</a>, advised by Prof. Xianyuan Zhan and Prof. Ya-Qin Zhang. My thesis focused on <em>Data Flywheel for Intelligent Decision-Making</em>."},
     {"date": "Jun 2026", "html": "New work: <a href=\"https://arxiv.org/abs/2606.24742\">World Value Models</a> and <a href=\"https://arxiv.org/abs/2606.03127\">TTT-VLA</a> — value modeling and test-time adaptation for robotic manipulation."},
     {"date": "2026", "html": "<a href=\"https://arxiv.org/abs/2602.23408\">Demystifying Action Space Design</a> is accepted to <strong>ICML 2026</strong> and received the <strong>Best Paper Award</strong> at the Efficient Spatial Reasoning Workshop @ ICLR 2026."}
   ]

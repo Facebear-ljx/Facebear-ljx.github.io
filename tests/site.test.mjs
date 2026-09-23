@@ -35,6 +35,13 @@ test('confirmed career and education dates are present', () => {
   assert.ok(!/final.year PhD/i.test(html));
 });
 
+test('the PhD graduation update includes the thesis topic', () => {
+  const graduation = updates.news.find(item => item.html.startsWith('I completed my PhD'));
+  assert.ok(graduation);
+  assert.ok(graduation.html.includes('My thesis focused on <em>Data Flywheel for Intelligent Decision-Making</em>.'));
+  assert.ok(html.includes(graduation.html));
+});
+
 test('the new portrait and BASAL email replace previous profile references', () => {
   assert.ok(html.includes('src="assets/jianxiong-basal.jpg"'));
   assert.ok(html.includes('width="5292" height="7938"'));
