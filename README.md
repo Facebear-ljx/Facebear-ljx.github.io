@@ -24,7 +24,7 @@ New publications were checked against [Google Scholar](https://scholar.google.co
 - [TTT-VLA](https://arxiv.org/abs/2606.03127)
 - [Demystifying Action Space Design for Robotic Manipulation Policies](https://arxiv.org/abs/2602.23408)
 
-The original portrait, research interests, publication links, professional service, and archived news are retained. Publication years retain the original bibliography's convention; conference venue years can therefore differ from preprint years.
+The portrait is the updated photo supplied by the site owner, and all contact links use `lijianxiong@basalintelligence.com`. Original research interests, publication links, professional service, and archived news are retained. Publication years retain the original bibliography's convention; conference venue years can therefore differ from preprint years.
 
 ## Credits
 

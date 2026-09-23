@@ -35,6 +35,14 @@ test('confirmed career and education dates are present', () => {
   assert.ok(!/final.year PhD/i.test(html));
 });
 
+test('the new portrait and BASAL email replace previous profile references', () => {
+  assert.ok(html.includes('src="assets/jianxiong-basal.jpg"'));
+  assert.ok(html.includes('width="5292" height="7938"'));
+  assert.equal((html.match(/href="mailto:lijianxiong@basalintelligence\.com"/g) || []).length, 3);
+  assert.ok(!html.includes('li-jx21@mails.tsinghua.edu.cn'));
+  assert.ok(!html.includes('assets/jianxiong2.jpg'));
+});
+
 test('internal navigation has valid unique targets and local assets exist', () => {
   const ids = [...html.matchAll(/\bid="([^"]+)"/g)].map(m => m[1]);
   assert.equal(new Set(ids).size, ids.length);
