@@ -1,1 +1,1 @@
-{"name":"jianxiong-li-homepage","version":"1.0.0","private":true,"type":"module","scripts":{"build":"node scripts/build.mjs","test":"node --test tests/site.test.mjs"}}
+{"name":"jianxiong-li-homepage","version":"1.0.0","private":true,"type":"module","scripts":{"build":"node scripts/build.mjs","build:icons":"node scripts/build-icons.mjs","test":"node --test tests/site.test.mjs"}}

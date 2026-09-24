@@ -10,6 +10,7 @@ Static personal website for [Jianxiong Li](https://facebear-ljx.github.io/), Co-
 - Add new work, verified publication metadata, and news in `data/updates.json`.
 - The 11 original news items are preserved in `data/news-archive.json`.
 - Run `npm run build` to regenerate the root `index.html`, then `npm test`.
+- After changing the portrait, adjust the head-and-shoulders crop in `scripts/build-icons.mjs` and run `npm run build:icons` on macOS. This exports all search/browser/mobile icons and the sharing portrait from the same original photo; commit the generated assets too.
 - Preview locally with `python3 -m http.server 4173` and visit `http://localhost:4173`.
 
 Commit the generated `index.html` alongside the source changes. GitHub Pages serves the root files directly. All papers and news remain available without JavaScript; JavaScript adds search and category filtering.

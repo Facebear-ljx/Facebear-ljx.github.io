@@ -50,6 +50,60 @@ test('the new portrait and BASAL email replace previous profile references', () 
   assert.ok(!html.includes('assets/jianxiong2.jpg'));
 });
 
+test('search, browser, mobile and sharing metadata use dedicated portrait icons', () => {
+  assert.ok(!html.includes('href="assets/jianxiong-basal.jpg"'));
+  assert.match(html, /rel="icon" href="assets\/favicon_package\/favicon-96x96\.png" sizes="96x96" type="image\/png"/);
+  assert.match(html, /rel="icon" href="favicon\.ico"/);
+  assert.match(html, /rel="apple-touch-icon"[^>]+sizes="180x180"/);
+  assert.match(html, /rel="manifest" href="assets\/favicon_package\/site\.webmanifest"/);
+  const image = 'https://facebear-ljx.github.io/assets/favicon_package/icon-HD-ljx.jpg';
+  assert.ok(html.includes(`property="og:image" content="${image}"`));
+  assert.ok(html.includes(`name="twitter:image" content="${image}"`));
+  assert.ok(fs.statSync(new URL('assets/favicon_package/icon-HD-ljx.jpg', root)).size < 100_000);
+});
+
+const readBytes = relative => fs.readFileSync(new URL(relative, root));
+const pngDimensions = bytes => {
+  assert.equal(bytes.subarray(0, 8).toString('hex'), '89504e470d0a1a0a');
+  return [bytes.readUInt32BE(16), bytes.readUInt32BE(20)];
+};
+
+test('portrait icon exports have the declared square dimensions and working manifest paths', () => {
+  const iconRoot = new URL('assets/favicon_package/', root);
+  for (const size of [16, 32, 48, 96]) {
+    assert.deepEqual(pngDimensions(fs.readFileSync(new URL(`favicon-${size}x${size}.png`, iconRoot))), [size, size]);
+  }
+  const manifest = JSON.parse(read('assets/favicon_package/site.webmanifest'));
+  assert.equal(manifest.name, 'Jianxiong Li · BASAL Intelligence');
+  for (const icon of manifest.icons) {
+    assert.equal(icon.type, 'image/png');
+    assert.deepEqual(pngDimensions(fs.readFileSync(new URL(icon.src, iconRoot))), icon.sizes.split('x').map(Number));
+  }
+  assert.deepEqual(pngDimensions(readBytes('apple-touch-icon.png')), [180, 180]);
+  assert.deepEqual(readBytes('apple-touch-icon.png'), readBytes('assets/favicon_package/apple-touch-icon.png'));
+  assert.deepEqual(pngDimensions(readBytes('assets/favicon_package/mstile-150x150.png')), [150, 150]);
+  assert.ok(read('assets/favicon_package/browserconfig.xml').includes('/assets/favicon_package/mstile-150x150.png'));
+});
+
+test('root and legacy ICO fallbacks contain the same new PNG icon exports', () => {
+  const ico = readBytes('favicon.ico');
+  assert.deepEqual(ico, readBytes('assets/favicon_package/favicon.ico'));
+  assert.equal(ico.readUInt16LE(0), 0);
+  assert.equal(ico.readUInt16LE(2), 1);
+  assert.equal(ico.readUInt16LE(4), 4);
+  [16, 32, 48, 256].forEach((size, index) => {
+    const entry = 6 + 16 * index;
+    assert.equal(ico[entry] || 256, size);
+    assert.equal(ico[entry + 1] || 256, size);
+    const length = ico.readUInt32LE(entry + 8);
+    const offset = ico.readUInt32LE(entry + 12);
+    assert.ok(offset + length <= ico.length);
+    const png = ico.subarray(offset, offset + length);
+    assert.deepEqual(pngDimensions(png), [size, size]);
+    if (size < 256) assert.deepEqual(png, readBytes(`assets/favicon_package/favicon-${size}x${size}.png`));
+  });
+});
+
 test('internal navigation has valid unique targets and local assets exist', () => {
   const ids = [...html.matchAll(/\bid="([^"]+)"/g)].map(m => m[1]);
   assert.equal(new Set(ids).size, ids.length);
