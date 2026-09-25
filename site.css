@@ -130,7 +130,7 @@ h2{font:400 34px/1.2 var(--serif);letter-spacing:-.8px}
 .contact-section .eyebrow{margin-bottom:10px}
 .contact-section h2{font-size:31px}
 .contact-section p:last-child{color:var(--muted);font-size:16px;margin-top:8px}
-.contact-email{font-size:19px;border-bottom:1px solid var(--blue);padding-bottom:5px;overflow-wrap:anywhere}
+.contact-email{font-size:19px;border-bottom:1px solid var(--blue);padding-bottom:5px;overflow-wrap:anywhere;flex-shrink:0;max-width:100%}
 .contact-email span{margin-left:20px}
 .site-footer{border-top:1px solid var(--line);padding-top:24px;padding-bottom:32px;font-size:12px;color:var(--muted);display:flex;justify-content:space-between;align-items:baseline;gap:25px}
 .site-footer>div{display:flex;align-items:baseline;gap:25px}

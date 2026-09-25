@@ -50,6 +50,15 @@ test('the new portrait and BASAL email replace previous profile references', () 
   assert.ok(!html.includes('assets/jianxiong2.jpg'));
 });
 
+test('the contact section invites passionate robot learning candidates to join', () => {
+  const contact = html.match(/<section class="contact-section"[\s\S]*?<\/section>/)?.[0];
+  assert.ok(contact);
+  assert.ok(contact.includes('<h2 id="contact-title">Join us.</h2>'));
+  assert.ok(contact.includes("If you're deeply passionate about robot learning and eager to push the limits and advance the field, we'd love to have you join us."));
+  assert.ok(contact.includes('href="mailto:lijianxiong@basalintelligence.com"'));
+  assert.ok(!html.includes('Open to collaboration.'));
+});
+
 test('search, browser, mobile and sharing metadata use dedicated portrait icons', () => {
   assert.ok(!html.includes('href="assets/jianxiong-basal.jpg"'));
   assert.match(html, /rel="icon" href="assets\/favicon_package\/favicon-96x96\.png" sizes="96x96" type="image\/png"/);
